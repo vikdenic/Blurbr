@@ -251,11 +251,8 @@
 		351211D31C86A936006BB401 = {
 			isa = PBXGroup;
 			children = (
-				351211F71C86AA08006BB401 /* lib */,
-				351211F51C86A9BB006BB401 /* libz.tbd */,
-				351211F31C86A9B5006BB401 /* libsqlite3.tbd */,
-				351211F11C86A9B0006BB401 /* SystemConfiguration.framework */,
 				351211DE1C86A936006BB401 /* Blurbr */,
+				351213CB1C88ABDE006BB401 /* Backendless */,
 				351211DD1C86A936006BB401 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -646,6 +643,17 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		351213CB1C88ABDE006BB401 /* Backendless */ = {
+			isa = PBXGroup;
+			children = (
+				351211F71C86AA08006BB401 /* lib */,
+				351211F51C86A9BB006BB401 /* libz.tbd */,
+				351211F31C86A9B5006BB401 /* libsqlite3.tbd */,
+				351211F11C86A9B0006BB401 /* SystemConfiguration.framework */,
+			);
+			name = Backendless;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -888,6 +896,7 @@
 				351211F01C86A936006BB401 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
